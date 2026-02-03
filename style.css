@@ -1,3 +1,25 @@
+header {
+    background-color: white;
+    color: rgb(19, 18, 20);
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size:larger;
+}
+
 body{
     background-color: rgb(19, 18, 20);
     color: white;
@@ -23,7 +45,7 @@ p {
 }
 
 #contact_container {
-    width:170px;
+    width:205px;
     margin: 0 auto;
 }
 
@@ -35,28 +57,6 @@ img{
     display:block; 
     margin-left: auto;
     margin-right: auto;
-}
-
-header {
-    background-color: white;
-    color: rgb(19, 18, 20);
-    padding: 10px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-nav li {
-    margin: 0 20px;
-}
-
-nav a {
-    color: black;
-    text-decoration: none;
-    font-size:larger;
 }
 
 footer {
