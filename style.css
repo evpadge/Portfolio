@@ -1,7 +1,7 @@
 header {
+    padding-top: 10px;
+    padding-bottom: 1px;
     background-color: white;
-    color: rgb(19, 18, 20);
-    padding: 10px;
 }
 
 nav ul {
@@ -15,9 +15,13 @@ nav li {
 }
 
 nav a {
-    color: black;
+    color: rgb(19, 18, 20);
     text-decoration: none;
     font-size:larger;
+}
+
+nav a:hover{
+    color: rgb(126, 118, 133);
 }
 
 body{
@@ -28,13 +32,16 @@ body{
 }
 
 h2 {
+    margin: 45px;
     text-align:center;
     font-weight:normal;
-    border-radius:15px;
+}
+
+h4 { 
+    text-align:center;
 }
 
 p {
-    margin:0;
     font-size: 14px;
 }
 
@@ -55,14 +62,51 @@ p {
     margin: 0 auto;
 }
 
-img{
-    max-width: 100%;
+.carousel-img {
+    height: 300px;
+    width: auto;
+    display: block;
+    margin: 10px auto;
     border: 3px solid white;
-    border-radius:15px;
-    width:250px; 
-    display:block; 
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 20px;
+}
+
+.card{
+    margin: auto;
+    background: rgb(126, 118, 133);
+    border: 3px solid white;
+    color:white;
+    border-radius: 20px;
+}
+
+.project-card{
+    max-width: 900px;
+}
+
+.contact-card{
+    max-width: 225px;
+    height: 65px;
+    padding: 5px 5px;
+}
+
+.about-card{
+    max-width: 900px;
+}
+
+.about-img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 3px solid white;
+}
+
+.about-img-col{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 footer {
